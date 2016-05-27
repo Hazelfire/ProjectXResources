@@ -1,0 +1,35 @@
+<class name="Hot Dog Man" >
+	<movement>
+		<leftIdle>Hot Dog Man</leftIdle>
+		<rightIdle>Hot Dog Man</rightIdle>
+		<left>Hot Dog Man</left>
+		<right>Hot Dog Man</right>
+	</movement>
+	<description>
+	Small Hot Dog man
+	</description>
+</class>
+
+<class name="Birdfoot">
+	<movement>
+		<leftIdle>Birdfoot</leftIdle>
+		<rightIdle>Birdfoot</rightIdle>
+		<left>Birdfoot</left>
+		<right>Birdfoot</right>
+	</movement>
+	<description>
+	Birdfoot is coolz
+	</description>
+</class>
+
+<class name="Rat Man">
+	<movement>
+		<leftIdle>Rat Man Left Idle</leftIdle>
+		<rightIdle>Rat Man Right Idle</rightIdle>
+		<left>Rat Man Left</left>
+		<right>Rat Man Right</right>
+	</movement>
+	<description>
+	I do it 4 da cheez
+	</description>
+</class>

@@ -1,0 +1,68 @@
+<map width="1500" height="1500" name="standard">
+	<layer name="bottom">
+		<rule type="perlin" scale="0.2">
+			<tile name='water' height="20"/>
+			<tile region='beach' name='sand' height="24" />
+			<area height="70">
+				<tile region='plains' name='grass' />
+				<rule type="perlin" scale="0.5">
+					<tile region='deadlands' name='deadlandsFloor' height="10" />
+				</rule>
+				<rule type="perlin" scale="0.5">
+					<tile region='desert' name="sand" height="10" />
+				</rule>
+				<rule type="perlin" scale="0.5">
+					<rule region='graves' type="random" height="10">
+						<tile name='graveStoneFloor' height="95" />
+						<tile region='graveDirt' name='graveGrass' height="100"/>
+					</rule>
+				</rule>
+			</area>
+			<tile region="cliffs" name='cliff' height="90" />
+			<tile region='snow' name='snow' height="100" />
+		</rule>
+	</layer>
+	<layer name="misc">
+		<rule type="inside" inside="desert" >
+			<rule type="random">
+				<tile name="cactus" height="1" />
+			</rule>
+		</rule>
+		<rule type="inside" inside="plains">
+			<rule type="random">
+				<tile name="SuperTreh" height = "0.1" />
+				<tile name="tree" height = "2" />
+				<tile name="appleTree" height="3" />
+			</rule>
+		</rule>
+		<rule type="inside" inside="cliffs">
+			<rule type="random">
+				<tile name="coal" height ="2"/>
+				<tile name="mudrock" height ="5" />
+				<tile name="coal2" height = "7"  />
+				<tile name="gold" height = "10"  />
+			</rule>
+		</rule>
+		<rule type="inside" inside="beach">
+			<rule type="random">
+				<tile name="palm" height ="2" />
+			</rule>
+		</rule>
+		<rule type="inside" inside="graves">
+			<rule type="random">
+				<tile name="grave-gravestone" height = "2" />
+				<tile name="grave-spookyStatue" height = "2.4" />
+			</rule>
+		</rule>
+		<rule type="inside" inside="graveDirt">
+			<rule type="random">
+				<tile name="grave-deadTree" height = "50"  />
+			</rule>
+		</rule>
+		<rule type="inside" inside="deadlands">
+			<rule type="random">
+				<tile name="eggStatue" height = "4" />
+			</rule>
+		</rule>
+	</layer>
+</map>

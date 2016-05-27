@@ -1,0 +1,17 @@
+<creature name="Rat" ai="Rat" speed="2">
+	<movement>
+		<left>Rat Left</left>
+		<right>Rat Right</right>
+		<leftIdle>Rat Left Idle</leftIdle>
+		<rightIdle>Rat Right Idle</rightIdle>
+	</movement>
+</creature>
+
+<creature name="Big Rat" ai="Rat" speed="3">
+	<movement>
+		<left>Big Rat Left</left>
+		<right>Big Rat Right</right>
+		<leftIdle>Big Rat Left Idle</leftIdle>
+		<rightIdle>Big Rat Right Idle</rightIdle>
+	</movement>
+</creature>

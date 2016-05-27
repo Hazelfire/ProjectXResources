@@ -1,0 +1,34 @@
+<spritesheet source="Rings.png" >
+	<sprite name="Alignment Ring" x="0" y="0" />
+	<sprite name="Aqua Ring" x="1" y="0" />
+	<sprite name="Bear Ring" x = "2" y = "0" />
+	<sprite name="Cheetah Ring" x="3" y="0" />
+	<sprite name="Clayskin Ring" x="4" y="0" />
+	<sprite name="Cleaving Ring" x="5" y="0" />
+	<sprite name="Constitution Ring" x="6" y="0" />
+	<sprite name="Contentment Ring" x="7" y="0" />
+	<sprite name="Curing Ring" x="0" y="1" />
+	<sprite name="Duplicity Ring" x="1" y="1" />
+	<sprite name="Elephant Ring" x="2" y="1" />
+	<sprite name="Fulgar Ring" x="3" y="1" />
+	<sprite name="Health Ring" x="4" y="1" />
+	<sprite name="Ignis Ring" x="5" y="1" />
+	<sprite name="Ironskin Ring" x="6" y="1" />
+	<sprite name="Life Ring" x="7" y="1" />
+	<sprite name="Maelstrom Ring" x="0" y="2" />
+	<sprite name="Pain Ring"  x="1" y="2" />
+	<sprite name="Reviving Ring" x="2" y="2" />
+	<sprite name="Sacrifice Ring" x="3" y="2" />
+	<sprite name="Satisfaction Ring" x="4" y="2" />
+	<sprite name="Saturation Ring" x="5" y="2" />
+	<sprite name="Sharpness Ring" x="6" y="2" />
+	<sprite name="Speed Ring" x="7" y="2" />
+	<sprite name="Stoneskin Ring" x="0" y="3" />
+	<sprite name="Swiftness Ring" x="1" y="3" />
+	<sprite name="Terra Ring" x="2" y="3" />
+	<sprite name="Ventus Ring" x="3" y="3" />
+	<sprite name="Vorpality Ring" x="4" y="3" />
+	<sprite name="Whirlwind Ring" x="5" y="3" />
+	<sprite name="Wind Ring" x="6" y="3" />
+	<sprite name="Armidillo Ring" x="7" y="3" />
+</spritesheet>

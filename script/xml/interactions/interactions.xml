@@ -1,0 +1,23 @@
+<movable>
+	sand;cliff;snow;graveGrass;graveStoneFloor;deadlandsFloor;grass
+</movable>
+<item name="gold">
+	<action>giveAndDestroy("Gold", 3)</action>
+</item>
+
+<item name="coal">
+	<action>giveAndDestroy("Stone", 3)</action>
+</item>
+
+<item name="tree">
+	<action>giveAndDestroy("Wood", 3)</action>
+</item>
+
+<item name="grave-deadTree">
+	<action>giveAndDestroy("Wood", 3)</action>
+</item>
+
+<item name="appleTree">
+	<action name="chop">giveAndDestroy("Wood", 3)</action>
+	<action name="pick">Inventory.givePlayerItem("Apple")</item>
+</item>

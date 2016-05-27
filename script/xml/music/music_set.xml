@@ -1,0 +1,18 @@
+<region name="plains">
+	<song source="Ambient Hope" />
+</region>
+<region name="snow">
+	<song source="Chase in the cold" />
+</region>
+<region name="beach">
+	<song source="Seaside" />
+</region>
+<region name="graves">
+    <song source="Ambient Despair" />
+</region>
+<region name="cliffs">
+	<song source="Grind" />
+</region>
+<region name="desert">
+	<song source="A little warm" />
+</region>

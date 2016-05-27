@@ -1,0 +1,51 @@
+<map width="1500" height="1500" name="islands" post="basic" >
+	<layer name="bottom">
+		<rule type="perlin" scale="0.2">
+			<area height="28">
+				<tile region='plains' name='grass' />
+				<rule type="perlin" scale="0.2" height = "28">
+					<blank height="40" />
+					<tile region="cliffs" name='cliff' height="48" />
+					<tile region='snow' name='snow' height="52" />
+					<tile region="cliffs" name='cliff' height="60" />
+					<blank height="100" />
+				</rule>
+			</area>
+			<tile region='beach' name='sand' height="30" />
+			<tile name='water' height="70"/>
+			<tile region='beach' name='sand' height="72" />
+			<area height="100">
+				<tile region='plains' name='grass' />
+				<rule type="perlin" scale="0.2" height = "100">
+					<blank height="40" />
+					<tile region="cliffs" name='cliff' height="48" />
+					<tile region='snow' name='snow' height="52" />
+					<tile region="cliffs" name='cliff' height="60" />
+					<blank height="100" />
+				</rule>
+			</area>
+		</rule>
+	</layer>
+	<layer name="misc">
+		<rule type="inside" inside="plains">
+			<rule type="random">
+				<tile name="SuperTreh" height = "0.1" />
+				<tile name="tree" height = "2" />
+				<tile name="appleTree" height="3" />
+			</rule>
+		</rule>
+		<rule type="inside" inside="cliffs">
+			<rule type="random">
+				<tile name="coal" height ="2"/>
+				<tile name="mudrock" height ="5" />
+				<tile name="coal2" height = "7"  />
+				<tile name="gold" height = "10"  />
+			</rule>
+		</rule>
+		<rule type="inside" inside="beach">
+			<rule type="random">
+				<tile name="palm" height ="2" />
+			</rule>
+		</rule>
+	</layer>
+</map>

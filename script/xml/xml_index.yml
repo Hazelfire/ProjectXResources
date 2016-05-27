@@ -1,0 +1,23 @@
+creatures:
+  - creatures.xml
+interactions:
+  - interactions.xml
+players:
+  - standard_cast.xml
+items:
+  - resources.xml
+  - rings.xml
+  - tools.xml
+  - ultanium.xml
+map:
+  - islands.xml
+  - standard.xml
+mappost:
+  - basic.xml
+music:
+  - music_set.xml
+sprites:
+  - Rings.xml
+  - sprites.xml
+schematics:
+  - Apple Circle.xml

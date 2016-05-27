@@ -1,0 +1,7 @@
+<schem name="Apple Circle" width = "3" height="3">
+	<top>
+		appleTree,appleTree,appleTree,
+		appleTree,		   ,appleTree,
+		appleTree,appleTree,appleTree
+	</top>
+</schem>

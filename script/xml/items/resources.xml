@@ -1,0 +1,28 @@
+<item name="Gold" >
+	<description>
+	OOOH, SHINY!
+	</description>
+</item>
+
+<item name="Wood">
+	<description>
+	Yay! Lumber!
+	... now what? Stone?
+	</description>
+</item>
+
+<item name="Stone">
+	<description>
+	ARE YOU READY TO STONE?
+	</description>
+</item>
+
+<item name="Apple">
+ <description>
+ The early bird gets the worm getting the apple...
+ I think...
+ </description>
+ <uses>
+	<use name="Eat" dispose="true"></use>
+ </uses>
+</item>
