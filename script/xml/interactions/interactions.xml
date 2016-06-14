@@ -1,23 +1,23 @@
 <movable>
 	sand;cliff;snow;graveGrass;graveStoneFloor;deadlandsFloor;grass
 </movable>
-<item name="gold">
+<tile name="gold">
 	<action>giveAndDestroy("Gold", 3)</action>
-</item>
+</tile>
 
-<item name="coal">
+<tile name="coal">
 	<action>giveAndDestroy("Stone", 3)</action>
-</item>
+</tile>
 
-<item name="tree">
+<tile name="tree">
 	<action>giveAndDestroy("Wood", 3)</action>
-</item>
+</tile>
 
-<item name="grave-deadTree">
+<tile name="grave-deadTree">
 	<action>giveAndDestroy("Wood", 3)</action>
-</item>
+</tile>
 
-<item name="appleTree">
+<tile name="appleTree">
 	<action name="chop">giveAndDestroy("Wood", 3)</action>
-	<action name="pick">Inventory.givePlayerItem("Apple")</item>
-</item>
+	<action name="pick">inventory:giveItem("Apple")</tile>
+</tile>

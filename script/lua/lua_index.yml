@@ -1,7 +1,7 @@
+interactions:
+  - BasicGive.lua
 creatures:
   - Rat.lua
   - Thief.lua
-interactions:
-  - BasicGive.lua
 startup:
   - startup.lua

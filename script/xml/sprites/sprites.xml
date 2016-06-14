@@ -20,7 +20,7 @@
 	<spritesheet source = "UltaniumGodbladeAni.png">
 		<animate name="Ultanium Godblade" height="6" width = "1" x="0" y="0" speed="0.08" />
 	</spritesheet>
-#file Rings.xml
+
 </items>
 
 <tiles>
