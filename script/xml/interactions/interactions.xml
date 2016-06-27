@@ -19,5 +19,5 @@
 
 <tile name="appleTree">
 	<action name="chop">giveAndDestroy("Wood", 3)</action>
-	<action name="pick">inventory:giveItem("Apple")</tile>
+	<action name="pick">inventory:giveItem("Apple")</action>
 </tile>
