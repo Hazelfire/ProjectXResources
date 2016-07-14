@@ -23,6 +23,6 @@
 	I think...
 	</description>
 	<uses>
-		<action name="eat">inventory:takeItem("Apple")</action>
+		<action name="eat">removeItem()</action>
 	</uses>
 </item>
