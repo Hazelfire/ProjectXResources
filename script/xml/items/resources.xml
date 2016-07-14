@@ -18,8 +18,11 @@
 </item>
 
 <item name="Apple">
- <description>
- The early bird gets the worm getting the apple...
- I think...
- </description>
+	<description>
+	The early bird gets the worm getting the apple...
+	I think...
+	</description>
+	<uses>
+		<action name="eat">inventory:takeItem("Apple")</action>
+	</uses>
 </item>
