@@ -14,4 +14,7 @@
 		<leftIdle>Big Rat Left Idle</leftIdle>
 		<rightIdle>Big Rat Right Idle</rightIdle>
 	</movement>
+	<interactions>
+		<action name="Applify">inventory:giveItem("Apple")</action>
+	</intearctions>
 </creature>
