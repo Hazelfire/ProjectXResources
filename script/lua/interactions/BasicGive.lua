@@ -1,6 +1,6 @@
 function giveAndDestroy(itemName, quantity)
 	inventory:giveItem(itemName, quantity);
-	Arena.destroyTile(x,y);
+	Arena.destroyTile(tilePos);
 end
 
 function hasAnyOfItem(itemName)
