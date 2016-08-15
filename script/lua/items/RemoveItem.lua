@@ -1,3 +1,3 @@
 function removeItem()
-	inventory:takeItem(itemName);
+	me.takeItem(itemName);
 end

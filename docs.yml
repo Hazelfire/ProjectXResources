@@ -1,0 +1,389 @@
+Interpreter:
+    functions:
+        log:
+            doc: Logs a message to the log file and prints it to the console
+            overloads:
+                - string message
+        
+        logWarning:
+            doc: Logs a warning to the log file and prints it to the console
+            overloads:
+                - string message
+        
+        logError:
+            doc: Logs a warning to the log file and prints it to the console
+            overloads:
+                - string message
+        
+        type:
+            doc: Returns the type of the item given
+            overloads:
+                - anything item
+            returns: string
+            
+        vector:
+            doc: Returns a vector newly constructed vector
+            overloads:
+                -
+                - number x, number y
+            returns: vector
+    objects:
+        vector:
+            functions:
+                toString:
+                    doc: Returns a string representation of the vector
+                    overloads:
+                        - 
+                    returns: string
+                
+                dot:
+                    doc: Returns the dot product of itself and it's argument
+                    overloads:
+                        - vector other
+                    returns: number
+                
+                length:
+                    doc: Returns the length of the vector
+                    overloads:
+                        - 
+                    returns: number
+                    
+                argument:
+                    doc: Returns the argument of the vector
+                    returns: number
+                    
+                normalized:
+                    doc: Returns the vector normalized
+                    overloads:
+                        - 
+                    returns: number
+            vars:
+                x:
+                    doc: the x component of the vector
+                    type: number
+                y:
+                    doc: the y component of the vector
+                    type: number
+                    
+
+    folder: interpreter 
+
+    
+
+Game:
+    functions:
+        playSong:
+            doc: Plays the song given
+            overloads:
+                - string song
+        
+        spawnParticles:
+            doc: Spawns the particle system at the given location
+            overloads:
+                - string particleSystem, vector position
+        
+        print:
+            doc: Prints a message to the console, and will print anything
+            overloads:
+                - everything arguments
+        
+        clear:
+            doc: Clears the terminal log
+        
+        help:
+            doc: Prints help information regarding the funciton
+            overloads:
+                - function function
+        
+        creature:
+            doc: Spawns a creature at a position and returns it
+            overloads:
+                - string creatureName, vector position
+            returns: creature
+            
+        tile:
+            doc: Returns the tile at the given position
+            overloads:
+                - number x, number y
+                - vector tilePosition
+            returns: tile
+        
+        player:
+            doc: Returns the player with the given index
+            overloads:
+                - number index
+            returns: player
+    objects:
+        tile:
+            functions:
+                toString:
+                    doc: Returns a string representation of the tile
+                    returns: string
+                    
+                getName:
+                    doc: Returns the name of the tile
+                    overloads:
+                        - 
+                        - number layerIndex
+                    returns: string
+                
+                getRegion:
+                    doc: Returns the region the tile is inside
+                    returns: string
+                    
+                destroy:
+                    doc: Destroys the tile
+                
+                setState:
+                    doc: Sets the state of the tile
+                    overloads:
+                        - number state
+                
+                getState:
+                    doc: Returns the state of the tile
+                    returns: number
+                
+                setProperties:
+                    doc: Sets the property table associated with the tile
+                    overloads:
+                        - table propertiesTable
+                
+                getProperties:
+                    doc: Returns the property table associated with the tile
+                    returns: table
+                    
+                getPosition:
+                    doc: Returns the position vector of the tile
+                    return: vector
+        player:
+            functions:
+                toString:
+                    doc: Returns a string representation of the player
+                    returns: string
+                
+                getPosition:
+                    doc: Returns the position vector of the player
+                    returns: vector
+                
+                getName:
+                    doc: Returns the chosen name of the player
+                    returns: string
+                
+                getClass:
+                    doc: Returns the chosen class of the player
+                    returns: string
+                
+                getSpeed:
+                    doc: Returns the movement speed of the player in tile per second
+                    returns: number
+                
+                setSpeed:
+                    doc: Sets the movment speed of the player in tile per second
+                    overloads:
+                        - number speed
+                
+                getHealth:
+                    doc: Returns the health of the player, out of 100
+                    returns: number
+                
+                setHealth:
+                    doc: Sets the health of the player, out of 100
+                    overloads:
+                        - number health
+                
+                heal:
+                    doc: Heals the player by the given HP
+                    overloads:
+                        - number hp
+                
+                damage:
+                    doc: Damages the player by the given HP
+                    overloads:
+                        - number hp
+                
+                teleport:
+                    doc: Teleports the player to the given location
+                    overloads:
+                        - vector position
+                        - number x, number y
+                
+                giveItem:
+                    doc: Gives the item to the player, in the quantity if given
+                    overloads:
+                        - string itemName
+                        - string itemName, number quantity
+                    
+                takeItem:
+                    doc: Takes the item from the player, in the quantity if given
+                    overloads:
+                        - string itemName
+                        - string itemName, number quantity
+                
+                getItemQuantity:
+                    doc: Returns the quantity of the item owned by the player
+                    overloads:
+                        - string itemName
+                    returns: number
+                    
+                canCraftItem:
+                    doc: Returns if the player can craft a certain item
+                    overloads:
+                        - string itemName
+                    returns: boolean
+                
+                hasItemWithTag:
+                    doc: Returns if the player has an item with the tag
+                    overloads:
+                        - string tag
+                    returns: boolean
+        creature:
+            functions:
+                toString:
+                    doc: Returns a string representation of the creature
+                    returns: string
+                
+                moveTo:
+                    doc: Moves the creature towards the tile given, returns the time it would take
+                    overloads:
+                        - vector tilePosition
+                        - vector tilePosition, number distance
+                        - vector tilePosition, number distance, number speed
+                    returns: number
+                    
+                moveOn:
+                    doc: Moves the creature onto the tile given
+                    overloads:
+                        - vector tilePosition
+                        - vector tilePosition, number speed
+                
+                getPosition:
+                    doc: Returns the tile coordinates of the creature
+                    returns: vector
+                
+                getSpeed:
+                    doc: Returns the movement speed of the creature in tiles per second
+                    returns: vector
+                
+                setSpeed:
+                    doc: Sets the movement speed of the creature in tiles per second
+                    overloads:
+                        - number speed
+                
+                getName:
+                    doc: Returns the nam of the creature
+                    returns: string
+                
+                getAI:
+                    doc: Returns the AI script of the creature
+                    returns: string
+                    
+                hasTag:
+                    doc: Returns if the creature has a certain tag
+                    overloads:
+                        - string tag
+                
+                getProperties:
+                    doc: Returns the properties table of the creature
+                    returns: table
+                
+                setProperties:
+                    doc: Sets the properties table of the creature
+                    overloads:
+                        - table propertiesTable
+                
+                despawn:
+                    doc: Despawns the creature
+    vars:
+        UNTOUCHED:
+            doc: The untouched state number (0)
+            type: number
+        
+        DESTROYED:
+            doc: The destroyed state number (1)
+            type: number
+            
+        DEPLETED:
+            doc: The depleted state number (2)
+            type: number
+    folder: game
+    parent: Interpreter
+
+Personal:
+    vars:
+        me:
+            doc: The player that belongs to the current computer
+            type: player
+    folder: personal
+    parent: Game
+    
+Creature:
+    functions:
+        getPosition:
+            doc: Returns the position of the creature
+            returns: vector
+            
+        moveOn:
+            doc: Moves the creature onto the tile
+            overloads:
+                - vector destination
+                - vector destination, number speed
+            returns: number
+            
+        setSpeed:
+            doc: Sets the movment speed of the creature in tile per second
+            overloads:
+                - number speed
+        
+        getSpeed:
+            doc: Returns the movment speed of the creature in tiles per second
+            returns: number
+            
+        moveTo:
+            doc: Moves the creature towards the tile given
+            overloads:
+                - vector destination
+                - vector destination, number distance
+                - vector destination, number distance, number speed
+            returns: number
+        
+        despawn:
+            doc: Despawns the creature
+        
+        newProximityState:
+            doc: Create a new proximity state
+            overloads:
+                - string stateName, number distance
+        
+        newUpdateState:
+            doc: creates a new update state
+            overloads:
+                - string stateName
+        
+        newClockState:
+            doc: Creates a new clock state
+            overloads:
+                - string statename, number interval
+        
+        deleteState:
+            doc: Deletes the given state
+            overloads:
+                - string stateName
+
+    parent: Game
+    folder: creature
+    
+ItemUses:
+    vars:
+        itemName:
+            doc: The name of the item that is being interacted with
+            type: string
+    parent: Personal
+    folder: itemUses
+
+TileActions:
+    vars:
+        tilePos:
+            doc: The position of the tile that is being interacted with
+            type: vector
+    parent: Personal
+    folder: interactions

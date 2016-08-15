@@ -1,2 +1,4 @@
 log/*
 save/*
+script/xml/xml_index.yml
+script/lua/lua_index.yml
