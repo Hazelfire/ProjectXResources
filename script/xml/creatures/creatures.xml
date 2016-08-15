@@ -7,6 +7,15 @@
 	</movement>
 </creature>
 
+<creature name="Slime" ai="Rat" speed="1">
+	<movement>
+		<left>Slime Jump</left>
+		<right>Slime Jump</right>
+		<leftIdle>Slime Idle</leftIdle>
+		<rightIdle>Slime Idle</rightIdle>
+	</movement>
+</creature>
+
 <creature name="Big Rat" ai="Rat" speed="3">
 	<movement>
 		<left>Big Rat Left</left>
