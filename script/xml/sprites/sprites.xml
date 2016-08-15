@@ -93,7 +93,10 @@
 	<spritesheet source="Hot Dog Man.png" height="29" width= "20">
 		<sprite name="Hot Dog Man" x="0" y="0" />
 	</spritesheet>
-
+	<spitesheet source="Bully.png" height="32" width="24">
+		<sprite name="Bully" x="0" y="0" />
+	</spritesheet>
+	
 	<spritesheet source = "BigRatAnim.png" height="13" width="17">
 		<animate name="Rat Man Left" height="6" width="1" x="0" y="0" speed="0.1" />
 		<animate name="Rat Man Right" height="6" width="1" x="1" y="0" speed="0.1" />
