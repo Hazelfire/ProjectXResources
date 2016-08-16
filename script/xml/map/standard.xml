@@ -31,7 +31,9 @@
 		<rule type="inside" inside="plains">
 			<rule type="random">
 				<tile name="SuperTreh" height = "0.1" />
-				<tile name="tree" height = "2" />
+				<tile name="tree" height = "1.4" />
+				<tile name="tree-2" height = "1.2" />
+				<tile name="tree-3" height = "2" />
 				<tile name="appleTree" height="3" />
 			</rule>
 		</rule>
