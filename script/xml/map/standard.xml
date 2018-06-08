@@ -1,6 +1,6 @@
 <map width="1500" height="1500" name="standard">
 	<layer name="bottom">
-		<rule type="fractal" scale="0.2">
+		<rule type="fractal" scale="10">
 			<tile name='water' height="20"/>
 			<tile region='beach' name='sand' height="24" />
 			<area height="70">

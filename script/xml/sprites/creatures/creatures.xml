@@ -1,0 +1,18 @@
+<spritesheet source= "Rat anim.png" height= "10" width="16">
+  <animate name="Rat Left" height="6" width= "1" x="0" y="0" speed="0.1" />
+  <animate name="Rat Right" height="6" width= "1" x="1" y="0" speed="0.1" />
+  <sprite name="Rat Left Idle" x="0" y="0" />
+  <sprite name="Rat Right Idle" x="1" y="0" />
+</spritesheet>
+
+<spritesheet source= "BigRatAnim.png" height="13" width="17">
+  <animate name="Big Rat Left" height="6" width="1" x="0" y="0" speed="0.1" />
+  <animate name="Big Rat Right" height="6" width="1" x="1" y="0" speed="0.1" />
+  <sprite name="Big Rat Left Idle" x="0" y="6" />
+  <sprite name="Big Rat Right Idle" x="1" y="6" />
+</spritesheet>
+
+<spritesheet source="SlimeVertical.png" height="16" width="16">
+  <animate name="Slime Jump" height="6" width="1" x="0" y="0" speed="0.1" />
+  <sprite name="Slime Idle" x="0" y="6" />
+</spritesheet>

@@ -1,0 +1,52 @@
+<spritesheet source = "terrain.png" tileWidth= "1" tileHeight = "1" >
+  <sprite name="water" x ="0" y="0" />
+  <sprite name="sand" x="1" y="0" />
+  <sprite name="grass" x="2" y="0" />
+  <sprite name="cliff" x ="0" y ="1" />
+  <sprite name="stoneFloor" x ="3" y="0" />
+  <sprite name="snow" x = "1" y="1" />
+  <sprite name="graveStoneFloor" x="2" y="1" />
+  <sprite name="graveGrass" x="3" y="1" />
+</spritesheet>
+
+<spritesheet source="graveMisc.png" tileWidth="1" tileHeight="2" >
+  <sprite name="grave-deadTree" x = "0" y = "0" />
+  <sprite name="grave-gravestone" x = "1" y = "0" />
+  <sprite name="grave-spookyStatue" x = "2" y = "0" />
+</spritesheet>
+
+<spritesheet source = "tree.png" tileWidth = "1" tileHeight = "3" >
+  <sprite name="tree" x="0" y = "0" />
+</spritesheet>
+
+<spritesheet source = "tree-2.png" tileWidth = "1" tileHeight = "3" >
+  <sprite name="tree-2" x="0" y = "0" />
+</spritesheet>
+
+<spritesheet source = "tree-3.png" tileWidth = "1" tileHeight = "3" >
+  <sprite name="tree-3" x="0" y = "0" />
+</spritesheet>
+
+<spritesheet source = "misc.png" tileWidth = "1" tileHeight = "1" >
+  <sprite name="coal" x="0" y = "1" />
+  <sprite name="mudrock" x = "1"  y="1" />
+  <sprite name="coal2" x = "0" y = "0" />
+  <sprite name="gold" x = "1" y = "0" />
+</spritesheet>
+
+<spritesheet source="Small Trees.png" tileWidth = "1" tileHeight = "2" >
+  <sprite name="palm" x="0" y="0" />
+  <sprite name="cactus" x="1" y="0" />
+  <sprite name="shrubbery" x="0" y="1" />
+  <sprite name="appleTree" x="1" y="1" />
+</spritesheet>
+<spritesheet source="Supertall Tree.png" tileWidth = "1" tileHeight ="4" >
+  <sprite name="SuperTreh" x="0" y="0" />
+</spritesheet>
+
+<spritesheet source="Eggstoudanry_Statue.png" setWidth="1" setHeight="2" tileWidth = "1" tileHeight = "2">
+  <sprite name="eggStatue" x="0" y="0" />
+</spritesheet>
+<spritesheet source="deadlands.png" setWidth="1" setHeight="1" tileWidth = "1" tileHeight = "1">
+  <sprite name="deadlandsFloor" x="0" y="0" />
+</spritesheet>

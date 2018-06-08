@@ -1,0 +1,21 @@
+<spritesheet source = "Resources.png" >
+  <sprite name="Gold" x="0" y="0" />
+  <sprite name="Wood" x="1" y="0" />
+  <sprite name="Stone" x="2" y="0" />
+  <sprite name="Apple" x="3" y="0" />
+</spritesheet>
+
+<spritesheet source="StandardTools.png" >
+  <sprite name="Pickaxe" x="0" y="0" />
+  <sprite name="Shovel" x="1" y="0" />
+  <sprite name="Sword" x="0" y="1" />
+  <sprite name="Axe" x="1" y="1" />
+</spritesheet>
+
+<spritesheet source="Ultanium.png" >
+  <sprite name="Ultanium" x="0" y="0" />
+</spritesheet>
+
+<spritesheet source = "UltaniumGodbladeAni.png">
+  <animate name="Ultanium Godblade" height="6" width = "1" x="0" y="0" speed="0.08" />
+</spritesheet>
